@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>user registration form</title>
+	<link rel="stylesheet" type="text/css" href="styles/common.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+	<div>
+	<h1>user registration form</h1>
+	<form name="vform">
+		<div>
+		<input type="text" name="username" class="textInput" placeholder="Username" >
+		<div id="name_error" class="val_error"></div>
+		</div>
+		<div>
+		<input type="email" name="password" class="textInput" placeholder="Email">
+		<div id="email_error" class="val_error"></div>
+		</div><div>
+		<input type="password" name="password" class="textInput" placeholder="Password">
+		</div>
+		<div>
+		<input type="password" name="password_cofirmation" class="textInput" placeholder="Password">
+		<div id="password_error" class="val_error"></div>
+		</div>
+		<div>
+			<input type="submit" value="Register" class="btn" name="register">
+		</div>
+	</form>
+	</div>
+	<script type="text/javascript" src="scripts/common.js"></script>
+</body>
+</html>
